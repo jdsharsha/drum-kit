@@ -10,7 +10,7 @@ for (var i=0;i<document.querySelectorAll(".drum").length;i++){
 
 document.addEventListener("keydown",function (event) {
     makeSound(event.key);
-    buttonAnimation(even.key);
+    buttonAnimation(event.key);
 });
 
 
